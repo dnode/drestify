@@ -1,0 +1,16 @@
+{
+  "name": "drestify",
+  "description": "Get the restify application depending on the environment variable 'PORT'",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/drestify",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "dependencies": {
+    "restify": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/drestify.git"
+  }
+}

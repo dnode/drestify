@@ -3,5 +3,5 @@
 
 # Example
 ```javascript
-let app = require('drestify');
+const app = require('drestify');
 ```

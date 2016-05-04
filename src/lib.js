@@ -2,7 +2,7 @@
 
 const restify = require('restify');
 
-let app = restify.createServer();
+const app = restify.createServer();
 app.listen(process.env.PORT);
 app.use(restify.acceptParser(app.acceptable));
 app.use(restify.bodyParser({ mapParams: false }));
